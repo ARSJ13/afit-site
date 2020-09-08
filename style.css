@@ -1,0 +1,26 @@
+/* GLOBAIS */
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+a:link, a:active, a:visited{
+  color: none;
+}
+li{
+  list-style-type: none;
+}
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
