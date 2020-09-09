@@ -20,7 +20,8 @@
     <path d="M 0 0 L 0 0 L 887 0 L 887 666 L 150 350 Q 0 300 0 200" fill="url(#linear-gradient)"></path>
     <path d="M 900 0 L 900 250 L 450 700 L 300 550 L 850 0 L 850 0 " fill="url(#linear-gradient-op)"></path>
     <path d="M 400 0 L 650 0 L 200 500 L 50 350 L 400 0 " fill="url(#linear-gradient-op)"></path>
-    <path d="M 0 200 A 30 30 0 1 1 100 350 A 30 30 0 1 1 0 300 " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="1" stroke-dasharray="5,5"></path>
-    <path d="M 0 150 A 40 40 0 1 1 150 350 L 150 350 A 40 40 0 1 1 0 150 " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="1"></path>
+    <path d="M 0 250 A 50 50 0 1 1 150 400 " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2" stroke-dasharray="5,5"></path>
+    <path d="M 0 200 A 50 50 0 1 1 180 450 " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2"></path>
+    <path d="M 0 150 A 50 50 0 1 1 200 500 " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2" stroke-dasharray="5,5"></path>
   </g>
 </svg>
