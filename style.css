@@ -1,4 +1,3 @@
-/* GLOBAIS */
 *{
   font-family: 'Poppins', sans-serif;
   margin: 0px;
@@ -23,4 +22,59 @@ li{
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+}
+/* GLOBAIS */
+
+.header-container{
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+}
+.header-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 0px;
+  min-width: 485px;
+}
+.header-box{
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+.header-box>h1{
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.3rem;
+}
+.header-box>p{
+  font-size: 1.1rem;
+  color: #8D97B5;
+  padding: 2.5rem 0px;
+}
+
+#nav>ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 4rem 0 0;
+}
+#nav>ul>li>a{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+}
+#nav>ul>li:nth-child(n+5){
+  background: #FFFFFF;
+  box-shadow: 2px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+}
+#nav>ul>li>a.teacher{
+  color: #33C899;
+}
+
+.header-menu{
+  background-image: url(./assets/background.svg);
+  background-repeat: no-repeat;
 }
