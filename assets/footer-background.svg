@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1170px" height="220px">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#33C899;" />
+      <stop offset="100%" style="stop-color:#334399;" />
+    </linearGradient>
+    <linearGradient id="linear-gradient-op" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255, 255,255,0.1);" />
+      <stop offset="85%" style="stop-color:rgba(196,196,196,0);" />
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M 0 0 L 1170 0 L 1170 221 L 1170 221 L 0 221 Z" fill="url(#linear-gradient)"></path>
+    <path d="M 435 0 L 305 221 L 513 221 L 513 221 L 630 0 Z" fill="url(#linear-gradient-op)"></path>
+    <path d="M 767 0 L 637 221 L 858 221 L 858 221 L 975 0 Z" fill="url(#linear-gradient-op)"></path>
+    <path d="M -50 221 A 50 50 0 1 1 301 221 Z" fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2" stroke-dasharray="5,5"></path>
+    <path d="M -30 221 A 50 50 0 1 1 282 221 Z" fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2"></path>
+    <path d="M -10 221 A 50 50 0 1 1 263 221 Z " fill="none" stroke="rgba(255, 255,255,0.1)" stroke-width="2" stroke-dasharray="5,5"></path>
+  </g>
+</svg>

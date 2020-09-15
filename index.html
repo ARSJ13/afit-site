@@ -6,6 +6,7 @@
   <title>aFit</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mobile.css">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
@@ -27,15 +28,22 @@
           </div>
         </section>
         <section class="header-menu">
-          <nav id="nav">
-            <ul>
-              <li><a href="#inicio">Início</a></li>
-              <li><a href="#beneficios">Benefícios</a></li>
-              <li><a href="#nos">Junte-se a nós</a></li>
-              <li><a href="#clientes">Clientes</a></li>
-              <li><a class="teacher" href="#professor">Área do professor</a></li>
-            </ul>
-          </nav>
+          <div id="navBar" class="">
+            <div class="navToggle">
+              <div class="a"></div>
+              <div class="b"></div>
+              <div class="c"></div>
+            </div>
+            <nav id="nav">
+              <ul class="">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#nos">Junte-se a nós</a></li>
+                <li><a href="#clientes">Clientes</a></li>
+                <li><a class="teacher" href="#professor">Área do professor</a></li>
+              </ul>
+            </nav>
+          </div>
           <img src="./assets/mock-1 1.png" alt="Celulares">
         </section>
       </div>
@@ -124,23 +132,45 @@
               <path d="M 70 125 C 85 105 108 110 95 110" fill="none" stroke-width=4 stroke="#EEEEEE"></path>
               <text fill="#303030" font-size="1.3rem" font-weight="600" x="40" y="40">Aulas esse mês</text> 
               <rect x="215" y="20" rx="10" ry="10" width="63" height="30" style="fill:#F3F5F8;" />
-              <text fill="#505D6F" font-size="0.9rem" x="220" y="40">↥ 24%</text> 
+              <text fill="#505D6F" font-size="0.9rem" x="220" y="40">↥ 24%</text>
+              <circle cx="185" cy="125" r="5" fill="#33C899" /> 
+              <circle cx="185" cy="150" r="5" fill="#FFD860" /> 
+              <circle cx="185" cy="175" r="5" fill="#334399" /> 
+              <text fill="#1B2B45" font-size="0.8rem" x="197" y="129">Musculação</text>
+              <text fill="#1B2B45" font-size="0.8rem" x="197" y="154">Jump</text>
+              <text fill="#1B2B45" font-size="0.8rem" x="197" y="179">Funcional</text>
+            </svg>
+          </div>
+          <div class="mobile-card3">
+            <svg width="294" height="214">
+              <text fill="#303030" font-size="1.3rem" font-weight="600" x="30" y="40">Aulas esse mês</text> 
+              <rect x="190" y="20" rx="10" ry="10" width="63" height="30" style="fill:#F3F5F8;" />
+              <text fill="#505D6F" font-size="0.9rem" x="192" y="40">↥ 24%</text>
+              <circle cx="85" cy="125" r="5" fill="#33C899" /> 
+              <circle cx="85" cy="150" r="5" fill="#FFD860" /> 
+              <circle cx="85" cy="175" r="5" fill="#334399" /> 
+              <text fill="#1B2B45" font-size="0.8rem" x="97" y="129">Musculação</text>
+              <text fill="#1B2B45" font-size="0.8rem" x="97" y="154">Jump</text>
+              <text fill="#1B2B45" font-size="0.8rem" x="97" y="179">Funcional</text>
             </svg>
           </div>
           <div class="card4">
-            <svg height="217" width="210">
+            <svg height="260px" width="328px">
               <defs>
                 <linearGradient id="linear-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
                   <stop offset="0%" style="stop-color:rgb(51, 200, 153);" />
                   <stop offset="100%" style="stop-color:rgb(51, 67, 153);" />
                 </linearGradient>
               </defs>
-              <path d="M 100 200 A 50 50 0 1 1 100 100 C 150 100 150 150 150 150" fill="none" stroke-width=5 stroke="url(#linear-gradient)"></path>
-              <path d="M 100 200 C 100 200 150 200 150 150" fill="none" stroke-width=5 stroke="#EEEEEE"></path>
-              <text fill="#303030" x="50" y="30">Aumentar</text>
-              <text fill="#303030" x="30" y="55">massa muscular</text>
-              <text fill="#BCBCBC" font-size="0.8rem" x="85" y="170">5kg</text>
-              <text fill="url(#linear-gradient)" font-size="1.8rem" x="70" y="150">75%</text>
+              <text fill="#303030" x="25" y="50" font-size="1.2rem" font-weight="600">Perda de peso</text>
+              <text fill="url(#linear-gradient)" font-size="1.1rem" font-weight="bold" x="25" y="90">25.5%</text>
+              <text fill="#BCBCBC" font-size="0.8rem" x="90" y="90">da meta</text>
+              <rect x="25" y="150" width="40" height="62" fill="#334399" />
+              <rect x="85" y="133" width="40" height="79" fill="#FFD860" />
+              <rect x="145" y="112" width="40" height="100" fill="#33C899" />
+              <text fill="#9AA1A9" font-size="0.6rem" x="29" y="236">Maio</text>
+              <text fill="#9AA1A9" font-size="0.6rem" x="85" y="236">Junho</text>
+              <text fill="#9AA1A9" font-size="0.6rem" x="147" y="236">Julho</text>
             </svg>
           </div>
         </div>
@@ -153,58 +183,65 @@
         <div class="carousel-container">
 
           <div class="card">
-            <div class="star">
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
+            <div>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper donec morbi aliquam diam ac vitae non viverra eu. Vitae nibh faucibus.</p>
             <div class="student">
               <img src="./assets/student1.png" alt="student">
               <div class="student-container">
-                <h3></h3>
-                <p></p>
+                <h3>Aline Bastos</h3>
+                <p>Porto Alegre/RS</p>
               </div>
             </div>
           </div>
           
-          <div class="card">
-            <div class="star">
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
+          <div class="card-view">
+            <div>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper donec morbi aliquam diam ac vitae non viverra eu. Vitae nibh faucibus.</p>
             <div class="student">
               <img src="./assets/student2.png" alt="student">
               <div class="student-container">
-                <h3></h3>
-                <p></p>
+                <h3>Fernanda Leme</h3>
+                <p>São Paulo/SP</p>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="star">
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
-              <span>x</span>
+            <div>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
+              <span><img  class="star" src="./assets/star.svg" alt="star"></span>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper donec morbi aliquam diam ac vitae non viverra eu. Vitae nibh faucibus.</p>
             <div class="student">
               <img src="./assets/student3.png" alt="student">
               <div class="student-container">
-                <h3></h3>
-                <p></p>
+                <h3>Ricardo Silva</h3>
+                <p>Rio de Janeiro/RJ</p>
               </div>
             </div>
           </div>
+        </div>
+        <div class="select">
+          <span></span>
+          <span id="student-check"></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </section>
     </main>
@@ -215,25 +252,28 @@
           <p>Baixe já a aFit e veja sua evolução acontecer.</p>
         </div>
         <div class="footer-app-button">
-          <button>Baixe agora</button>
+          <button class="footer-button">Baixe agora</button>
+          <a href="#"><i class="footer-app-icon fab fa-apple"></i></a>
+          <a href="#"><i class="footer-app-icon fab fa-google-play"></i></a>
         </div>
       </div>
       <div class="footer-container">
         <div class="footer-container-logo">
-
+          <img src="./assets/afit logo.png" alt="Logo">
         </div>
         <div class="footer-container-body">
-          <h2>Começa agora o seu melhor desafio.</h2>
+          <h2>Começa agora</br> o seu melhor desafio.</h2>
           <a href="mailto:contato@afit.com.br">contato@afit.com.br</a>
-          <p>2020 Todos direitos reservados</p>
+          <p>© 2020 Todos direitos reservados</p>
           <div class="footer-social">
-            <a href="#"><img src="" alt="">F</a>
-            <a href="#"><img src="" alt="">I</a>
-            <a href="#"><img src="" alt="">T</a>
+            <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="./assets/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="./assets/twitter.png" alt=Twitter"></a>
           </div>
         </div>
       </div>
     </footer>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
